@@ -1,0 +1,39 @@
+{
+	"variables": [],
+	"info": {
+		"name": "shortUrl",
+		"_postman_id": "f6f726c0-89a5-1639-3829-914e486ed12e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "encode",
+			"request": {
+				"url": "http://localhost:8080/encode",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "https://www.verylongwebaddress.com/additional_info/etc"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "decode",
+			"request": {
+				"url": "http://localhost:8080/decode",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "https://short.com/14ccb3ec"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
