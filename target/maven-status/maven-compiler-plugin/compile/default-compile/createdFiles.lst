@@ -1,4 +1,5 @@
 com/assess/util/Validator.class
+com/assess/util/Hash.class
 com/assess/config/ApplicationConfiguration.class
 com/assess/ShortApplication.class
 com/assess/dto/Address.class

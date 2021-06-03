@@ -1,12 +1,5 @@
 ## Execution instructions
 
-### Prerequisites
-* Ensure you have docker installed
-```bash
-$ docker pull redis
-$ docker run -d -p 6379:6379 --name my-redis redis
-```
-
 ### Run application
 * Run Spring Boot application (main class -> ShortApplication.java)
 * The application will run by default on port 8080
@@ -17,4 +10,4 @@ $ docker run -d -p 6379:6379 --name my-redis redis
 * /encode converts a normal url to a short.com url
 * /decode converts a short.com url to a normal url
 * the input url needs to be passed as raw text within the request body for both endpoints
-* ShortUrlControllerTest.java and ValidatorTest.java are simple tests for the Controller and Url validation respectively
+* ShortUrlControllerTest.java, ValidatorTest.java and HashTest.java are simple tests for the application's Controller, Url validation and Hashing.

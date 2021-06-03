@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ValidatorTest {
 
-    private static final String VALID = "https://www.google.com";
+    public static final String VALID = "https://www.google.com";
     private static final String INVALID = "htt://www.google.com";
 
     @Test
